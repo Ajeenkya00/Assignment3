@@ -24,15 +24,9 @@ body {
   display: table;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
+
 
 h1{
-
-	text-align:center;
-
 	font-family: "Old English Text MT";
 	color: darkslategray;
 }
@@ -47,11 +41,6 @@ h1{
 .box p{
 	text-align:justify;
 	padding:10px;
-}
-
-.box h4{
-	
-	text-align:center;
 }
 
 
@@ -71,13 +60,18 @@ h1{
   text-decoration: none;
 }
 
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
 #nav-list {
   
   background-color: aquamarine;
 }
 #nav-list a {
   color: #951C49;
-  text-align: center;
+  
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -105,7 +99,7 @@ h1{
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+   
   }
   
   .navbar-brand p img { /* Star-K */
